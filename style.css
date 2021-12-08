@@ -1,10 +1,10 @@
 body {
-    background-color: dimgray;
+    background-color: #696969;
 }
 button {
     border-radius: 5px;
-    background-color: gold;
-    color: black;
+    background-color: #ffd700;
+    color: #000;
 }
 a  {
     text-decoration-line: none;

@@ -1,0 +1,11 @@
+body {
+    background-color: dimgray;
+}
+button {
+    border-radius: 5px;
+    background-color: gold;
+    color: black;
+}
+a  {
+    text-decoration-line: none;
+}

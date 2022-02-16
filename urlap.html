@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <div class="sidebar">
+            <a class="active" href="index.html">RÓLAM</a>
+            <a href="keplink.html">KÉPLINK</a>
+            <a href="listak.html">LISTÁK</a>
+            <a href="orarend.html">ÓRAREND</a>
+            <a href="evszakok.html">ÉVSZAKOK</a>
+            <a href="urlap.html">ŰRLAP</a>
+        </div>
+
+        <div class="content">
+    <form name="rendeles">
+        <h1>Maffia</h1>
+        <fieldset>
+            <legend>Ügyfél adatai:</legend>
+            <p><label>Név: <input type="text" name="nev">
+                    <small>Vezetéknév&Keresztnév</small></label></p>
+            <p><label>Telefon: <input type="tel" name="telefon" size="10"></label></p>
+            <p><label>Azonosító: <input type="number">
+                <small>8 Karakter</small></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Emberek száma</legend>
+            <p><label><input type="radio" name="darab1" value="3-5">3-5</label></p>
+            <p><label><input type="radio" name="darab2" value="10-15">10-15</label></p>
+            <p><label><input type="radio" name="darab3" value="20-30">20-30</label></p>
+            <p><label><input type="radio" name="darab4" value="50-100">50-100</label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Fegyverek</legend>
+            <p><label><input type="checkbox" name="ezkozok1" value="nemkerek">Nem kérek</label></p>
+            <p><label><input type="checkbox" name="ezkozok2" value="melleny">Golyóálló Mellény</label></p>
+            <p><label><input type="checkbox" name="ezkozok3" value="kezifegyverek">Kézi fegyverek</label></p>
+            <p><label><input type="checkbox" name="ezkozok4" value="granat">Gránátok</label></p>
+            <p><label><input type="checkbox" name="ezkozok5" value="M16-A4">M16-A4</label></p>
+            <p><label><input type="checkbox" name="ezkozok6" value="atomraketa">Atomrakéta</label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Járművek</legend>
+            <p><label><input type="checkbox" name="jarmuvek1" value="motor">Honda CBR1000RR</label></p>
+            <p><label><input type="checkbox" name="jarmuvek2" value="auto">BMW 7</label></p>
+            <p><label><input type="checkbox" name="jarmuvek3" value="Helikopter">Helikopter</label></p>
+            <p><label><input type="color" name="color">
+                <small>Járművek színei</small></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>>>LEGVÉGSŐ ESETRE<<</legend>
+            <p><label><input type="radio" name="BOSS" value="BOSS">06204547624</label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Végezetül</legend>
+            <p><label>egyéb kívánságok: <textarea name="egyeb"></textarea></label></p>
+            <p><label>Kért szállítási idő: <input type="date" name="kiszallitas"></label></p>
+            <input type="reset" name="visszaallitas">
+            <input type='button' value='Feldolgozás'>
+            <br>
+            <br>
+            <br>
+        </fieldset>
+    </form>
+</div>
+<div class="footer">
+    <p>  
+         email: <a href="bekenyidavid5@gmail.com">bekenyidavid5@gmail.com</a>  Github:   <a href="https://github.com/Davidbekenyi"> github.com/Davidbekenyi</a>
+    </p> 
+  </div>
+</body>
+</html>

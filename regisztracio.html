@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztracio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <style>
+
+.mezo {
+    border: 2px solid #343535;
+    width: 400px;
+    height: 40px;
+    background-color: #343535;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 5px;
+    transition: 0.75s;    
+}
+
+.mezo:hover {
+        transform: scale(1.1);
+        border: 4px solid white;   
+}
+
+.kulon {
+    border: 2px solid #343535;
+    width: 150px;
+    height: 40px;
+    background-color: #343535;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 5px;
+    transition: 0.75s;
+}
+
+.kulon:hover {
+    transform: scale(1.1);
+    border: 4px solid white;
+}
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="index.html">HOME</a>
+        <a href="keplink.html">KÉPLINK</a>
+        <a href="listak.html">LISTÁK</a>
+        <a href="orarend.html">ÓRAREND</a>
+        <a href="evszakok.html">ÉVSZAKOK</a>
+        <a href="urlap.html">ŰRLAP</a>
+        <a href="szamologep.html">SZÁMOLÓGÉP</a>
+        <a class="active" href="regisztracio.html">REGISZTRÁCIÓ</a>
+        <a href="masolo.html">MÁSOLÓ</a>
+        <a href="pitagorAss.html">PitagorAss</a>
+        <a href="tablazat.html">TÁBLÁZAT</a>
+      </div>
+      <div class="content">
+           <h2>Regisztráció:</h2>
+
+    <form action="">
+        <input class="mezo" style="margin-top: 20px;" type="text" id="" placeholder="neved"><br>
+        <input class="mezo" type="email" id="" placeholder="email címed"><br>
+        <input class="mezo" type="password" name="" id="" placeholder="jelszó"><br>
+        <input class="mezo" type="password" name="" id="" placeholder="jelszó megerősétés"><br>
+
+        <label class="betu" for="aszf">ÁSZF elfogadása </label>        
+        <input class="betu" type="checkbox" name="aszf" id="" ><br>
+
+        <label class="betu" for="fiu">fiú</label>
+        <input class="betu" type="radio" name="neme" id="" value="fiu">
+        <label class="betu" for="lany">lány</label>
+        <input  class="betu"type="radio" name="neme" id="" value="lany"><br>
+
+        <input class="kulon" type="submit" value="regisztráció" onclick="reg()"> <br>
+        <input class="kulon" type="reset" value="mégsem">
+    </form>
+      </div>
+</body>
+</html>

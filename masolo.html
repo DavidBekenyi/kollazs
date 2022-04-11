@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Másoló</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <script>
+        function beir(){
+            ki.value = be.value
+        }
+    </script>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="index.html">HOME</a>
+        <a href="keplink.html">KÉPLINK</a>
+        <a href="listak.html">LISTÁK</a>
+        <a href="orarend.html">ÓRAREND</a>
+        <a href="evszakok.html">ÉVSZAKOK</a>
+        <a href="urlap.html">ŰRLAP</a>
+        <a href="szamologep.html">SZÁMOLÓGÉP</a>
+        <a href="regisztracio.html">REGISZTRÁCIÓ</a>
+        <a class="active" href="masolo.html">MÁSOLÓ</a>
+        <a href="pitagorAss.html">PitagorAss</a>
+        <a href="tablazat.html">TÁBLÁZAT</a>
+      </div>
+      
+      <div class="content" >
+        <h2>Másolás</h2>
+    <form action="">
+        <input type="text" id="be" value="Bakugán">
+        <input type="button" value="másol..." onclick="beir()">
+        <input type="text" id="ki">
+    </form>
+      </div>
+</body>
+</html>

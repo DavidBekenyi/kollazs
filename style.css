@@ -31,14 +31,14 @@ a  {
   }
    
   .sidebar a.active {
-    background-color: #FFD700;
+    background-color: #09508f;
     color: #FFFFFF;
     font-family: cursive;
-    font-size: 30px;
+    font-size: 20px;
   }
   
   .sidebar a:hover:not(.active) {
-    background-color: #FFD700;
+    background-color: #0d69ba;
     color: #FFFFFF;
   }
   

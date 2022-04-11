@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PitagorAss</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="sidebar">
+        <a href="index.html">HOME</a>
+        <a href="keplink.html">KÉPLINK</a>
+        <a href="listak.html">LISTÁK</a>
+        <a href="orarend.html">ÓRAREND</a>
+        <a href="evszakok.html">ÉVSZAKOK</a>
+        <a href="urlap.html">ŰRLAP</a>
+        <a href="szamologep.html">SZÁMOLÓGÉP</a>
+        <a href="regisztracio.html">REGISZTRÁCIÓ</a>
+        <a href="masolo.html">MÁSOLÓ</a>
+        <a class="active" href="pitagorAss.html">PitagorAss</a>
+        <a href="tablazat.html">TÁBLÁZAT</a>
+      </div>
+      <div class="content" >
+        <h2>Pitagorasz tétel</h2>
+
+        <input type="number" name="a" id="var_a" placeholder="a értéke"><br>
+        <input type="number" name="b" id="var_b" placeholder="b értéke"><br><br>
+        <button onclick="pita(var_a.value, var_b.value)">c értéke = </button>
+        <p style="border: 1px solid black; width: 160px; height: 20px; border-radius: 3px;" id="eredmeny"></p>
+        <img src="img/pitagorasz.png">
+        <script>
+            function pita(a, b) {
+                document.getElementById('eredmeny').innerHTML = Math.sqrt(a * a + b * b)
+            }
+        </script>
+      </div>
+</body>
+</html>
